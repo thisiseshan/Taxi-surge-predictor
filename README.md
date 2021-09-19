@@ -13,11 +13,7 @@ This project required Area code, Month, Day and Time code.
     Count: Number of taxi requests coded as 1, 2, 3...
     ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'assets/img/data-format.png' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
+![](assets/img/data-format.png)
 <div class="caption">
     Area, Day, Time and Count encoding
 </div>
@@ -31,22 +27,15 @@ I used Scikit's Decision Tree Regressor to complete this task. Information about
 ```python 
 from sklearn.tree import DecisionTreeRegressor 
 ```
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/decision-tree.png' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
+
+![](assets/img/decision-tree.png)
 <div class="caption">
     Decision tree from sklearn.tree.DecisionTreeRegressor
 </div>
 
 Using this Decision tree for my data, I get a score of 1.0. the result is predicted for an input of [0,0,0].
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ 'assets/img/score-prediction.png' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
+![](assets/img/score-prediction.png)
 <div class="caption">
     Model Prediction on [0,0,0]
 </div>
