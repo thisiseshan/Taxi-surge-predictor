@@ -1,4 +1,4 @@
-# Taxi surge predictor.Data Encoding
+# Taxi surge predictor
 
 ### Data Cleaning and Encoding
 
