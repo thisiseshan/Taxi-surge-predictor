@@ -36,6 +36,6 @@ from sklearn.tree import DecisionTreeRegressor
 Using this Decision tree for my data, I get a score of 1.0. the result is predicted for an input of [0,0,0].
 
 ![](assets/img/score-prediction.png)
-<div class="caption">
-    Model Prediction on [0,0,0]
-</div>
+
+
+View this project on my [website](https://thisiseshan.dev/projects/taxi/) 🚀
